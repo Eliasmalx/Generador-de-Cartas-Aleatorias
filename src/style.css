@@ -1,10 +1,33 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: green;
-}
-.card{
+
+.card {
     background-color: white;
-    margin: 0 40%;
-    font-size: 32px;  
+    width: 200px;
+    height: 300px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.numero {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 40px;
+}
+
+.superior {
+    align-self: flex-start;
+}
+
+.inferior {
+    align-self: flex-end;
+    transform: rotate(180deg);
 }

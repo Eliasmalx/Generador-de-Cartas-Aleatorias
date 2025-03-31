@@ -12,15 +12,21 @@
     integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
 </head>
 
-<body>
-  <h1>Cartas</h1>
-  <div class="card px-2">
-    <p class="superior logo">Logo superior</p>
-    <p class="d-flex justify-content-center numero">8</p>
-    <p class="d-flex justify-content-end logo ">Logo inferior</p>
-  </div>
+<body class="bg-success">
 
-  <button id="generate-btn">Barajar</button>
+  <div class="container text-center mt-5">
+
+    <h1 class="d-flex justify-content-center text-white">Carta Aleatoria</h1>
+    
+    <div class="card mx-auto p-3 mt-3">
+      <p class="logo superior">Logo superior</p>
+      <p class="numero">8</p>
+      <p class="logo inferior">Logo inferior</p>
+    </div>
+
+    <button class="btn btn-light mt-3" id="generate-btn">Barajar</button>
+
+  </div>
 
   <script type="module" src="/app.js"></script>
 </body>
